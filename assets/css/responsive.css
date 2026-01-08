@@ -590,6 +590,25 @@
 		max-height: -webkit-calc(50vw - 168px);
 		max-height: calc(50vw - 168px);
 	}
+	.tickets-accordion-section .q-btn-title {
+		font-size: 38px;
+	}
+	.tickets-accordion-section .q-ul > li .q-btn {
+		min-height: 114px;
+		padding: 16px 32px 16px 110px;
+	}
+	.tickets-accordion-section .q-ul > li .q-btn .q-plus-minus {
+		width: 55px;
+		height: 55px;
+		left: 32px;
+		margin: -27px 0 0 0;
+	}
+	.tickets-accordion-section .q-ul > li.active .q-btn .q-plus-minus {
+		top: 24px;
+	}
+	.tickets-accordion-section .q-ul > li > .q-text {
+	    padding: 8px 32px 48px 90px;
+	}
 }
 @media all and (max-width: 1024px) {
 	.top-search-results-list > li {
@@ -1097,6 +1116,25 @@
     }
 	.text-section-youtube {
 		height: 35.2vw;
+	}
+	.tickets-accordion-section .q-btn-title {
+		font-size: 32px;
+	}
+	.tickets-accordion-section .q-ul > li .q-btn {
+		min-height: 100px;
+		padding: 16px 24px 16px 80px;
+	}
+	.tickets-accordion-section .q-ul > li .q-btn .q-plus-minus {
+		width: 40px;
+		height: 40px;
+		left: 24px;
+	}
+	.tickets-accordion-section .q-ul > li > .q-text {
+        padding: 8px 24px 48px 80px;
+		font-size: 18px;
+    }
+	.tickets-accordion-section .q-text-inner {
+		padding: 16px 0 0 0;
 	}
 }
 @media all and (max-width: 782px) {
@@ -1631,6 +1669,23 @@
 	.mobile-header-tickets-btn {
 		position: absolute;
 	}
+	.tickets-accordion-section .q-ul > li.active .q-btn {
+		padding: 67px 16px 14px;
+	}
+	.tickets-accordion-section .q-ul > li.active .q-btn .q-btn-title-wrap {
+		border-top: 2px solid rgba(255, 255, 255, 0.3);
+		text-align: center;
+		padding: 20px 0 0 0;
+	}
+	.tickets-accordion-section .q-ul > li.active .q-btn .q-plus-minus {
+		width: 24px;
+		height: 24px;
+		left: calc(100% - 40px);
+		top: 24px;
+	}
+	.tickets-accordion-section .q-ul > li > .q-text {
+		padding: 0 16px 48px;
+	}
 }
 @media all and (max-width: 599px) {
 	#page-header {
@@ -1683,6 +1738,9 @@
 	.price-list td {
 		padding-top: 10px;
 		padding-bottom: 6px;
+	}
+	.q-text-inner-no-text .y-btn {
+		margin: 0 auto;
 	}
 }
 @media all and (max-width: 479px) {
