@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Semibold.eot');
+    src: url('NarkissBlock-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Semibold.woff2') format('woff2'),
+        url('NarkissBlock-Semibold.woff') format('woff'),
+        url('NarkissBlock-Semibold.ttf') format('truetype'),
+        url('NarkissBlock-Semibold.svg#NarkissBlock-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Hairline.eot');
+    src: url('NarkissBlock-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Hairline.woff2') format('woff2'),
+        url('NarkissBlock-Hairline.woff') format('woff'),
+        url('NarkissBlock-Hairline.ttf') format('truetype'),
+        url('NarkissBlock-Hairline.svg#NarkissBlock-Hairline') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Extralight.eot');
+    src: url('NarkissBlock-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Extralight.woff2') format('woff2'),
+        url('NarkissBlock-Extralight.woff') format('woff'),
+        url('NarkissBlock-Extralight.ttf') format('truetype'),
+        url('NarkissBlock-Extralight.svg#NarkissBlock-Extralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Regular.eot');
+    src: url('NarkissBlock-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Regular.woff2') format('woff2'),
+        url('NarkissBlock-Regular.woff') format('woff'),
+        url('NarkissBlock-Regular.ttf') format('truetype'),
+        url('NarkissBlock-Regular.svg#NarkissBlock-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Black.eot');
+    src: url('NarkissBlock-Black.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Black.woff2') format('woff2'),
+        url('NarkissBlock-Black.woff') format('woff'),
+        url('NarkissBlock-Black.ttf') format('truetype'),
+        url('NarkissBlock-Black.svg#NarkissBlock-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Bold.eot');
+    src: url('NarkissBlock-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Bold.woff2') format('woff2'),
+        url('NarkissBlock-Bold.woff') format('woff'),
+        url('NarkissBlock-Bold.ttf') format('truetype'),
+        url('NarkissBlock-Bold.svg#NarkissBlock-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Thin.eot');
+    src: url('NarkissBlock-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Thin.woff2') format('woff2'),
+        url('NarkissBlock-Thin.woff') format('woff'),
+        url('NarkissBlock-Thin.ttf') format('truetype'),
+        url('NarkissBlock-Thin.svg#NarkissBlock-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Light.eot');
+    src: url('NarkissBlock-Light.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Light.woff2') format('woff2'),
+        url('NarkissBlock-Light.woff') format('woff'),
+        url('NarkissBlock-Light.ttf') format('truetype'),
+        url('NarkissBlock-Light.svg#NarkissBlock-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Medium.eot');
+    src: url('NarkissBlock-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Medium.woff2') format('woff2'),
+        url('NarkissBlock-Medium.woff') format('woff'),
+        url('NarkissBlock-Medium.ttf') format('truetype'),
+        url('NarkissBlock-Medium.svg#NarkissBlock-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Narkiss Block';
+    src: url('NarkissBlock-Heavy.eot');
+    src: url('NarkissBlock-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('NarkissBlock-Heavy.woff2') format('woff2'),
+        url('NarkissBlock-Heavy.woff') format('woff'),
+        url('NarkissBlock-Heavy.ttf') format('truetype'),
+        url('NarkissBlock-Heavy.svg#NarkissBlock-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
