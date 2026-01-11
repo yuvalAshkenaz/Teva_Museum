@@ -94,7 +94,7 @@ if( window.navigator.userAgent.toLowerCase().indexOf("msie ") > -1 || !!navigato
 					slidesPerView			: itemNum,
 					updateOnImagesReady		: true,
 					preventClicks			: true,
-					centerInsufficientSlides: true,
+					// centerInsufficientSlides: true,
 					touchMoveStopPropagation: true,
 					watchSlidesProgress		: true,
 					grabCursor				: true,
@@ -595,4 +595,80 @@ if( window.navigator.userAgent.toLowerCase().indexOf("msie ") > -1 || !!navigato
 			}
 		}, 200);
 	});
+	
+	// Events filter - Calendar button
+	let selectedDate = null;
+	let selectedTag  = null;
+	const filterDateBtn = document.getElementById('filterDateBtn');
+	const dateInput = document.getElementById('hiddenDate');
+
+	if( filterDateBtn && dateInput ) {
+		const fp = flatpickr(dateInput, {
+			locale: "he",
+			dateFormat: "Y-m-d",
+			allowInput: false,
+
+			onOpen() {
+				filterDateBtn.classList.add('active');
+			},
+
+			onClose() {
+				filterDateBtn.classList.remove('active');
+			},
+
+			onChange(selectedDates, dateStr) {
+				selectedDate = dateStr;   // ← שמירת התאריך
+				filterEvents();
+			}
+		});
+
+		filterDateBtn.addEventListener('click', () => {
+			fp.open();
+		});
+	}
+	const eventsTags = document.querySelectorAll('.events-tags-list .item-tag');
+
+	if( eventsTags.length ) {
+		eventsTags.forEach(tag => {
+			tag.addEventListener('click', function() {
+
+				eventsTags.forEach(t => t.classList.remove('active'));
+
+				this.classList.add('active');
+				selectedTag = this.dataset.tag || this.textContent.trim(); // ← שמירת תגית
+
+				filterEvents();
+			});
+		});
+	}
+	function filterEvents() {
+
+		const payload = {};
+
+		if( selectedDate ) {
+			payload.date = selectedDate;
+		}
+
+		if( selectedTag ) {
+			payload.tag = selectedTag;
+		}
+
+		// אם אין שום פילטר – לא שולחים
+		if( !Object.keys(payload).length ) {
+			return;
+		}
+
+		/* fetch('/filter-events', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(payload)
+		})
+		.then(res => res.json())
+		.then(data => {
+			console.log('תוצאות סינון:', data);
+			// כאן עדכון DOM
+		})
+		.catch(console.error); */
+	}
+
 }
